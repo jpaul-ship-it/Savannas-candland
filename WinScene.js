@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Savanna's Magical World 🌟</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%;
+      background: #1a0533;
+      overflow: hidden;
+      font-family: 'Nunito', sans-serif;
+      touch-action: none;
+    }
+    #game-container {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    canvas { display: block; }
+  </style>
+  <script type="module" crossorigin src="./assets/index-fO0FN-LI.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/phaser-0RJB29YE.js">
+</head>
+<body>
+  <div id="game-container"></div>
+</body>
+</html>
